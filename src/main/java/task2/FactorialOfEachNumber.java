@@ -17,7 +17,6 @@ public class FactorialOfEachNumber implements Runnable {
     @Override
     public synchronized void run() {
         fileRandomNumbers.nextThread();
-        System.out.println("FactorialOfEachNumber");
         writeFile();
         showResult();
     }
