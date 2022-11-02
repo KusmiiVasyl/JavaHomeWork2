@@ -54,7 +54,7 @@ public class FactorialOfEachNumber implements Runnable {
         int[] arr = fileRandomNumbers.getRandomNumbers();
         String result = "";
         for (int i : arr) {
-            result += "Facorial " + i + " = " + factorialOfNumber(i) + "\n";
+            result += "Factorial " + i + " = " + factorialOfNumber(i) + "\n";
         }
         return result;
     }
